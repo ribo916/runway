@@ -8,15 +8,13 @@
     <h2>Still solving problems. Just in a different color palette.</h2>
   </div>
   <div class="video-container">
-    <video 
-      controls
-      autoplay
-      muted
-      playsinline
-    >
-      <source src="/Runway.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <iframe
+      src="https://www.youtube.com/embed/sYyHPpkfij0"
+      title="Application Video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
 </div>
 
@@ -77,11 +75,21 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 0; /* ensure no internal spacing */
+    margin: 0 auto; /* center the container */
+    display: flex; /* ensure proper sizing of children */
+    justify-content: center;
+    align-items: center;
   }
 
-  video {
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    border: none;
     object-fit: cover;
   }
 

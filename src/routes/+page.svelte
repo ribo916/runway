@@ -41,7 +41,7 @@
        aria-modal="true" 
        tabindex="0">
     <h2>Why am I applying?</h2>
-    <p>I've spent years as a developer, a dev manager, a business unit owner, a solution architect, a product owner, as well as an integration specialist. Most of my happiness comes from leveraging my technical and leadership skills with a primary focus of helping others. From the description, I see this role fitting me very well, but would love to speak to you all and learn more!</p>
+    <p>I've spent years as a developer, a dev manager, a business unit owner, a solution architect, a product owner, as well as an integration specialist. Most of my happiness comes from leveraging my technical and leadership skills with a primary focus of helping others. From the description, I am also inspired by moving away from Fintech and into a creative company focused in AI. I see this role fitting me very well, but would love to speak to you all and learn more!</p>
     <div class="button-container">
       <button class="close-button" on:click={toggleWhyModal}>Close</button>
     </div>

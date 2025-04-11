@@ -1,9 +1,8 @@
 <script>
   // You can add any reactive variables or imports here if needed
-  import { base } from '$app/paths';
 </script>
 
-<div class="container" style="background-image: url('{base}/resume_bg.png')">
+<div class="container" style="background-image: url('/resume_bg.png')">
   <div class="title-section">
     <h1>Rich Boesch</h1>
     <h2>Still solving problems. Just in a different color palette.</h2>

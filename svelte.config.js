@@ -9,11 +9,7 @@ const config = {
 
 	kit: {
 		// Using adapter-auto for Vercel
-		adapter: adapter(),
-		paths: {
-			base: '/runway'
-		},
-		appDir: 'app'
+		adapter: adapter()
 	}
 };
 

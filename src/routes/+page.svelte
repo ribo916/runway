@@ -1,8 +1,9 @@
 <script>
   // You can add any reactive variables or imports here if needed
+  import { base } from '$app/paths';
 </script>
 
-<div class="container">
+<div class="container" style="background-image: url('{base}/resume_bg.png')">
   <div class="title-section">
     <h1>Rich Boesch</h1>
     <h2>Still solving problems. Just in a different color palette.</h2>
@@ -25,8 +26,6 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    /* Replace with your resume background image URL */
-    background-image: url('/resume_bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
